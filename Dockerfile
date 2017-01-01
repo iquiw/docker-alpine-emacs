@@ -2,10 +2,12 @@ FROM alpine:3.5
 
 MAINTAINER Iku Iwasa "iku.iwasa@gmail.com"
 
+RUN apk update && apk add ca-certificates emacs
+
 WORKDIR /root
 
 COPY init.el /root/.emacs.d/
+COPY entrypoint.sh /
 
-RUN apk update && apk add ca-certificates emacs
-
-CMD ["emacs"]
+ENTRYPOINT [ "/entrypoint.sh" ]
+CMD [ "emacs" ]
