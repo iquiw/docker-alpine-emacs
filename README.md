@@ -3,7 +3,7 @@
 Emacs from Alpine community repository with MELPA setting.
 
 * Alpine Linux v3.6
-* Emacs v25.2
+* Emacs v25.3
 
 ## How to use this image
 
