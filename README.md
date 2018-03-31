@@ -1,5 +1,7 @@
 # Docker image for Emacs on Alpine Linux
 
+[![Docker Build Status](https://img.shields.io/docker/build/iquiw/alpine-emacs.svg)](https://hub.docker.com/r/iquiw/alpine-emacs/)
+
 Emacs from Alpine community repository with MELPA setting.
 
 * Alpine Linux v3.7
