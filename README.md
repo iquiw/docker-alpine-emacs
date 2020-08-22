@@ -4,7 +4,7 @@
 
 Emacs from Alpine community repository with MELPA setting.
 
-* Alpine Linux v3.11
+* Alpine Linux v3.12
 * Emacs v26.3
 
 ## How to use this image
